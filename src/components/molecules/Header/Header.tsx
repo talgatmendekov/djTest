@@ -95,13 +95,15 @@ export const Header: FC = () => {
             {foundPath?.headerKey === 'nav' && (
                <ul className={classes.menu}>
                   <li>
-                     <Typography
-                        color={'white'}
-                        variant={'h6'}
-                        onClick={findDjHandler}
-                     >
-                        Find DJ
-                     </Typography>
+                     <Link to={ROUTES.DJ_DISCOVERY}>
+                        <Typography
+                           color={'white'}
+                           variant={'h6'}
+                           onClick={findDjHandler}
+                        >
+                           Find DJ
+                        </Typography>
+                     </Link>
                   </li>
                   <li>
                      <Link to={ROUTES.EVENT}>

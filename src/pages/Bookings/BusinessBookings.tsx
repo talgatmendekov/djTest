@@ -1,4 +1,4 @@
-import { Button } from '../../components/atoms'
+import { Button, Tag } from '../../components/atoms'
 import { Link } from 'react-router-dom'
 import classes from './BusinessBookings.module.css'
 import { useNavigate } from 'react-router-dom'
@@ -50,7 +50,7 @@ export const BusinessBookings = () => {
             <div className={classes.eventInfo}>
                <div className={classes.eventName}>
                   <Typography variant="h5">Event name</Typography>
-                  <Button>Techno</Button>
+                  <Tag>Techno</Tag>
                </div>
 
                <Typography variant="subtitle1">London</Typography>
@@ -81,7 +81,7 @@ export const BusinessBookings = () => {
             <div className={classes.eventInfo}>
                <div className={classes.eventName}>
                   <Typography variant="h5">Event name</Typography>
-                  <Button>Techno</Button>
+                  <Tag>Techno</Tag>
                </div>
 
                <Typography variant="subtitle1">London</Typography>

@@ -92,6 +92,8 @@
  .bookingBtn {
     width: 300px;
     font-size: 32px;
+    background: #ffffff;
+    color: #000000;
     height: 64px;
     border: 1px solid #ffffff;
  }
